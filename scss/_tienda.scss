@@ -1,0 +1,99 @@
+/**======================TIENDA======================**/
+
+.main__tienda {
+  background-color: white;
+  padding: 3% 2% 4% 2%;
+}
+
+.select__tienda {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.699);
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-bottom: 0.5%;
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.container__tienda {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+.container__tienda:hover {
+  border-top-left-radius: 57px;
+  border-top-right-radius: 57px;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  border: 5px solid orange;
+}
+
+.destacados-container__tienda {
+  display: grid;
+  grid-template-areas:
+    "img__tienda"
+    "descripcion__tienda";
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  /*Justify funciona en horizontal*/
+  justify-content: center;
+  grid-column-gap: 120px;
+  margin-bottom: 70px;
+  margin-top: 35px;
+}
+
+.ofertas-container__tienda {
+  display: grid;
+  grid-template-areas:
+    "img__tienda"
+    "descripcion__tienda";
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  /*Justify funciona en horizontal*/
+  justify-content: center;
+  grid-column-gap: 120px;
+  margin-bottom: 50px;
+  margin-top: 35px;
+}
+
+.img__tienda {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  width: 375px;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+}
+.uno {
+  background-image: url(imagenes/img-uno__tienda.jpg);
+}
+.dos {
+  background-image: url(imagenes/img-dos__tienda.jpg);
+}
+.tres {
+  background-image: url(imagenes/img-tres__tienda.jpg);
+}
+.cuatro {
+  background-image: url(imagenes/img-cuatro__tienda.jpg);
+}
+.cinco {
+  background-image: url(imagenes/img-cinco__tienda.jpg);
+}
+.seis {
+  background-image: url(imagenes/img-seis__tienda.jpg);
+}
+
+.descripcion__tienda {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 50px;
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.356);
+  border-left: 1px solid rgba(128, 128, 128, 0.356);
+  border-right: 1px solid rgba(128, 128, 128, 0.356);
+}

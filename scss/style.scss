@@ -1,0 +1,163 @@
+@import "header.scss";
+@import "index.scss";
+@import "tienda.scss";
+@import "nosotros.scss";
+@import "contacto.scss";
+@import "ubicacion.scss";
+@import "footer.scss";
+
+/*PROPIEDADES GENERALES*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+/**======================RESPONSIVE======================**/
+/*Se que no era necesario, pero quise hacer un repaso*/
+
+@media (max-width: 1459px) {
+  .header {
+    display: grid;
+    grid-template-areas:
+      "logo-container__header"
+      "menu";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+  .logo-container__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    padding-right: 2%;
+    padding-top: 20px;
+  }
+  .link {
+    margin-right: 5%;
+  }
+  .boton-container__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+  }
+  .boton__header {
+    margin-left: 1%;
+  }
+  .destacados-container__tienda {
+    grid-column-gap: 1%;
+    margin-bottom: 70px;
+    margin-top: 35px;
+  }
+  .ofertas-container__tienda {
+    grid-column-gap: 1%;
+    margin-bottom: 50px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 1179px) {
+  .img-grid__index {
+    grid-column-gap: 4%;
+    margin-top: 4%;
+  }
+  .img__tienda {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1059px) {
+  .menu {
+    display: grid;
+    grid-template-areas: "link boton-container__header";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding-right: 0%;
+  }
+  .link {
+    margin-right: 0px;
+    padding-bottom: 15px;
+    margin-right: 0%;
+    margin-bottom: 10px;
+  }
+  .link:hover {
+    box-shadow: 0px 0px 0px black;
+  }
+  .boton-container__header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 955px) {
+  .img__index {
+    width: 250px;
+    height: 350px;
+  }
+  .img__tienda {
+    width: 250px;
+    height: 350px;
+  }
+  #img__nosotros {
+    width: 250px;
+    height: 350px;
+  }
+  .destacados-container__tienda {
+    grid-column-gap: 0.5%;
+  }
+  .ofertas-container__tienda {
+    grid-column-gap: 0.5%;
+  }
+  .boton-container__footer {
+    display: none;
+  }
+}
+
+@media (max-width: 823px) {
+  .img-grid__index {
+    grid-column-gap: 1.5%;
+    margin-top: 4%;
+  }
+}
+
+@media (max-width: 793px) {
+  .img__index {
+    width: 200px;
+    height: 300px;
+  }
+  .img__tienda {
+    width: 200px;
+    height: 300px;
+  }
+  .descripcion__tienda {
+    width: 200px;
+  }
+}
+
+@media (max-width: 653px) {
+  .boton-container__header {
+    display: flex;
+    justify-content: left;
+  }
+  .boton__header {
+    width: 114px;
+    margin-left: 5%;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+  }
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
