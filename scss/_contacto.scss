@@ -1,32 +1,32 @@
 /**======================CONTACTO======================**/
 .main__contacto {
-  text-align: center;
   padding: 2% 2% 2% 2%;
 }
 
-.grid-container__contacto {
-  display: grid;
-  grid-template-areas: "form-container__contacto";
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-}
-.form-container__contacto {
+.container__contacto {
   display: flex;
   justify-content: center;
+}
+
+.form-container__contacto {
   border: 2px solid rgba(128, 128, 128, 0.589);
   border-radius: 20px;
+  width: 33%;
 }
+
 .list__contacto {
   list-style: none;
 }
 .list-item__contacto {
   margin-top: 30px;
+  margin-bottom: 15px;
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px;
 }
 .input__contacto {
   padding: 5px;
+  width: 95%;
 }
 .input__contacto:focus {
   border: 2px solid transparent;
@@ -36,12 +36,17 @@
 }
 
 #mensaje-textarea__contacto {
-  margin: 15px;
   padding-top: 5px;
-  padding-left: 5px;
+  width: 95%;
 }
+
 #mensaje-textarea__contacto:focus {
   border: 2px solid transparent;
+}
+
+.input-container__contacto {
+  display: flex;
+  justify-content: center;
 }
 
 .boton__contacto {
@@ -53,6 +58,7 @@
   font-size: 15px;
   letter-spacing: 2px;
   width: 150px;
+  padding: 10px;
   cursor: pointer;
   transition: all 300ms;
 }

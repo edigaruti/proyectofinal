@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="scss/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap"
       rel="stylesheet"
@@ -63,37 +63,37 @@
     <!--MAIN-->
     <main class="main__contacto">
       <!---->
-      <div class="grid-container__contacto">
+      <div class="container__contacto">
         <div class="form-container__contacto">
           <form action="">
             <ul class="list__contacto">
               <li class="list-item__contacto">
                 <label class="nombre__contacto" for="nombre">Nombre: </label>
-                <input
-                  class="input__contacto"
-                  type="text"
-                  name="nombre"
-                  id="nombre"
-                />
               </li>
+              <input
+                class="input__contacto"
+                type="text"
+                name="nombre"
+                id="nombre"
+              />
               <li class="list-item__contacto">
                 <label for="apellido">Apellido: </label>
-                <input
-                  class="input__contacto"
-                  type="text"
-                  name="apellido"
-                  id="apellido"
-                />
               </li>
+              <input
+                class="input__contacto"
+                type="text"
+                name="apellido"
+                id="apellido"
+              />
               <li class="list-item__contacto">
                 <label for="email">Email:</label>
-                <input
-                  class="input__contacto"
-                  type="email"
-                  name="email"
-                  id="email"
-                />
               </li>
+              <input
+                class="input__contacto"
+                type="email"
+                name="email"
+                id="email"
+              />
               <li class="list-item__contacto">
                 <select
                   class="select__contacto"
@@ -118,8 +118,14 @@
                 >
               </li>
             </ul>
-            <input class="boton__contacto" type="submit" value="Enviar" />
-            <input class="boton__contacto" type="reset" value="Limpiar texto" />
+            <div class="input-container__contacto">
+              <input class="boton__contacto" type="submit" value="Enviar" />
+              <input
+                class="boton__contacto"
+                type="reset"
+                value="Limpiar texto"
+              />
+            </div>
           </form>
         </div>
       </div>
