@@ -98,7 +98,15 @@
 }
 
 @media (max-width: 955px) {
-  .img__index {
+  .img__index1 {
+    width: 250px;
+    height: 350px;
+  }
+  .img__index2 {
+    width: 250px;
+    height: 350px;
+  }
+  .img__index3 {
     width: 250px;
     height: 350px;
   }
@@ -129,7 +137,15 @@
 }
 
 @media (max-width: 793px) {
-  .img__index {
+  .img__index1 {
+    width: 200px;
+    height: 300px;
+  }
+  .img__index2 {
+    width: 200px;
+    height: 300px;
+  }
+  .img__index3 {
     width: 200px;
     height: 300px;
   }
@@ -143,6 +159,19 @@
 }
 
 @media (max-width: 653px) {
+  #naturalatina {
+    margin-top: 1%;
+  }
+  .navbar-bootsrap {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  #footer {
+    display: flex;
+    justify-content: center;
+  }
   .boton-container__header {
     display: flex;
     justify-content: left;
@@ -159,5 +188,90 @@
   iframe {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media (max-width: 632px) {
+  .destacados-container__tienda {
+    display: grid;
+    grid-template-areas:
+      "img__tienda"
+      "descripcion__tienda";
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    /*Justify funciona en horizontal*/
+    justify-content: center;
+  }
+
+  .ofertas-container__tienda {
+    display: grid;
+    grid-template-areas:
+      "img__tienda"
+      "descripcion__tienda";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    /*Justify funciona en horizontal*/
+    justify-content: center;
+  }
+}
+
+@media (max-width: 623px) {
+  .img-grid__index {
+    grid-column-gap: 5px;
+  }
+  .img__index1 {
+    display: none;
+  }
+}
+
+@media (max-width: 458px) {
+  #footer {
+    display: flex;
+    justify-content: center;
+  }
+  .nav__footer {
+    display: none;
+  }
+  .mapa {
+    width: 225px;
+  }
+  .nav-container__footer {
+    padding-left: 0%;
+  }
+}
+@media (max-width: 414px) {
+  .img__index3 {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  #naturalatina {
+    margin-top: 1%;
+  }
+  .navbar-bootsrap {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  #footer {
+    display: flex;
+    justify-content: center;
+  }
+  .nav__footer {
+    display: none;
+  }
+  .mapa {
+    width: 225px;
+  }
+}
+
+@media (max-width: 305px) {
+  .h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mapa {
+    width: 225px;
   }
 }

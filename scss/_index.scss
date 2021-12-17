@@ -14,14 +14,24 @@ h1 {
 
 .img-grid__index {
   display: grid;
-  grid-template-areas: "img__index";
+  grid-template-areas: "img__index1 img__index2 img__index3";
   grid-template-columns: auto auto auto;
   justify-content: center;
   grid-column-gap: 200px;
   margin-top: 4%;
 }
 
-.img__index {
+.img__index1 {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-bottom: 40px;
+}
+.img__index2 {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-bottom: 40px;
+}
+.img__index3 {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   margin-bottom: 40px;
