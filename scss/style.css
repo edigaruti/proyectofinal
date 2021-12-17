@@ -96,7 +96,8 @@
 }
 
 .link {
-  color: black;
+  color: bisque;
+  text-shadow: 0px 1px 2px black;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -110,8 +111,7 @@
 }
 
 .link:hover {
-  color: bisque;
-  text-shadow: 0px 1px 2px black;
+  color: white;
   -webkit-box-shadow: 0px 2.5px 0px black;
           box-shadow: 0px 2.5px 0px black;
 }
@@ -388,6 +388,7 @@ h1 {
 }
 
 .form-container__contacto {
+  margin-top: 15px;
   border: 2px solid rgba(128, 128, 128, 0.589);
   border-radius: 20px;
   width: 33%;
