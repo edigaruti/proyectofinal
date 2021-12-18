@@ -752,6 +752,12 @@ h1 {
   }
 }
 
+@media (max-width: 1140px) {
+  .form-container__contacto {
+    width: 50%;
+  }
+}
+
 @media (max-width: 955px) {
   .img__index1 {
     width: 250px;
@@ -810,6 +816,9 @@ h1 {
   }
   .descripcion__tienda {
     width: 200px;
+  }
+  .form-container__contacto {
+    width: 75%;
   }
 }
 
@@ -895,6 +904,12 @@ h1 {
   }
 }
 
+@media (max-width: 466px) {
+  .form-container__contacto {
+    width: 85%;
+  }
+}
+
 @media (max-width: 458px) {
   #footer {
     display: -webkit-box;
@@ -945,6 +960,15 @@ h1 {
   .mapa {
     width: 225px;
   }
+  .form-container__contacto {
+    width: 90%;
+  }
+}
+
+@media (max-width: 352px) {
+  .form-container__contacto {
+    width: 95%;
+  }
 }
 
 @media (max-width: 305px) {
@@ -954,6 +978,9 @@ h1 {
   }
   .mapa {
     width: 225px;
+  }
+  .main__contacto {
+    padding: 1%;
   }
 }
 /*# sourceMappingURL=style.css.map */
