@@ -101,6 +101,10 @@
   .form-container__contacto {
     width: 50%;
   }
+  .carousel__nosotros {
+    margin: 0px auto;
+    width: 40%;
+  }
 }
 
 @media (max-width: 955px) {
@@ -164,6 +168,10 @@
   }
   .form-container__contacto {
     width: 75%;
+  }
+  .carousel__nosotros {
+    margin: 0px auto;
+    width: 50%;
   }
 }
 
@@ -231,11 +239,19 @@
   .img__index1 {
     display: none;
   }
+  .carousel__nosotros {
+    margin: 0px auto;
+    width: 65%;
+  }
 }
 
 @media (max-width: 466px) {
   .form-container__contacto {
     width: 85%;
+  }
+  .carousel__nosotros {
+    margin: 0px auto;
+    width: 70%;
   }
 }
 
@@ -282,6 +298,10 @@
   .form-container__contacto {
     width: 90%;
   }
+  .carousel__nosotros {
+    margin: 0px auto;
+    width: 80%;
+  }
 }
 
 @media (max-width: 352px) {
@@ -300,5 +320,9 @@
   }
   .main__contacto {
     padding: 1%;
+  }
+  .carousel__nosotros {
+    margin: 0px auto;
+    width: 90%;
   }
 }
