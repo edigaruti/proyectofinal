@@ -762,6 +762,12 @@ h1 {
   }
 }
 
+@media (max-width: 1112px) {
+  .logo__header {
+    margin-bottom: 1.5%;
+  }
+}
+
 @media (max-width: 955px) {
   .img__index1 {
     width: 250px;
@@ -904,6 +910,9 @@ h1 {
 }
 
 @media (max-width: 623px) {
+  .logo__header {
+    margin-bottom: 2%;
+  }
   .img-grid__index {
     grid-column-gap: 5px;
   }
