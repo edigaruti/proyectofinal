@@ -160,6 +160,7 @@ h1 {
   color: black;
   font-weight: bold;
   margin-left: 10px;
+  margin-bottom: 15px;
   text-align: center;
   letter-spacing: 2px;
 }
@@ -907,6 +908,13 @@ h1 {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .img__tienda {
+    width: 375px;
+    height: 550px;
+  }
+  .descripcion__tienda {
+    width: 100%;
+  }
 }
 
 @media (max-width: 623px) {
@@ -932,6 +940,10 @@ h1 {
   .carousel__nosotros {
     margin: 0px auto;
     width: 70%;
+  }
+  .img__tienda {
+    width: 320px;
+    height: 400px;
   }
 }
 
@@ -998,6 +1010,10 @@ h1 {
   .form-container__contacto {
     width: 95%;
   }
+  .img__tienda {
+    width: 290px;
+    height: 380px;
+  }
 }
 
 @media (max-width: 305px) {
@@ -1014,6 +1030,10 @@ h1 {
   .carousel__nosotros {
     margin: 0px auto;
     width: 90%;
+  }
+  .img__tienda {
+    width: 280px;
+    height: 370px;
   }
 }
 /*# sourceMappingURL=style.css.map */

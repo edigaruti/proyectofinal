@@ -224,7 +224,6 @@
     /*Justify funciona en horizontal*/
     justify-content: center;
   }
-
   .ofertas-container__tienda {
     display: grid;
     grid-template-areas:
@@ -234,6 +233,13 @@
     grid-template-columns: auto;
     /*Justify funciona en horizontal*/
     justify-content: center;
+  }
+  .img__tienda {
+    width: 375px;
+    height: 550px;
+  }
+  .descripcion__tienda {
+    width: 100%;
   }
 }
 
@@ -260,6 +266,10 @@
   .carousel__nosotros {
     margin: 0px auto;
     width: 70%;
+  }
+  .img__tienda {
+    width: 320px;
+    height: 400px;
   }
 }
 
@@ -316,6 +326,10 @@
   .form-container__contacto {
     width: 95%;
   }
+  .img__tienda {
+    width: 290px;
+    height: 380px;
+  }
 }
 
 @media (max-width: 305px) {
@@ -332,5 +346,9 @@
   .carousel__nosotros {
     margin: 0px auto;
     width: 90%;
+  }
+  .img__tienda {
+    width: 280px;
+    height: 370px;
   }
 }
