@@ -37,58 +37,41 @@
     <header id="header">
       <!--LOGO de la empresa-->
       <div class="logo-container__header">
-        <img class="logo__header" src="imagenes/logo.svg" alt="" />
+        <img
+          class="logo__header"
+          src="imagenes/logo.svg"
+          alt="Logo de NaturaLatina"
+        />
         <p id="naturalatina">NaturaLatina</p>
       </div>
       <div class="navbar-bootsrap">
-        <div class="dropdown">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+          <a class="navbar-brand" href="#">Menú</a>
           <button
-            class="btn btn-success btn-lg dropdown-toggle button"
+            class="navbar-toggler"
             type="button"
-            id="dropdownMenu2"
-            data-bs-toggle="dropdown"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            Menú
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <li>
-              <button class="dropdown-item" type="link">
-                <a class="link-dark text-decoration-none" href="index.html"
-                  >Inicio</a
-                >
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="link">
-                <a class="link-dark text-decoration-none" href="tienda.html"
-                  >Tienda</a
-                >
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="link">
-                <a class="link-dark text-decoration-none" href="nosotros.html"
-                  >Nosotros</a
-                >
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="link">
-                <a class="link-dark text-decoration-none" href="contacto.html"
-                  >Contacto</a
-                >
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="link">
-                <a class="link-dark text-decoration-none" href="ubicacion.html"
-                  >Ubicacion</a
-                >
-              </button>
-            </li>
-          </ul>
-        </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
 
       <nav class="menu">
@@ -147,33 +130,20 @@
 
       <h1>Natura Latina</h1>
       <p class="p__index">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-        voluptatem assumenda ducimus laboriosam molestias laudantium natus, sed
-        beatae perspiciatis quam!
-      </p>
-      <p class="p__index">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi nihil
-        odit corrupti reprehenderit, pariatur, dolor maiores iure est, labore
-        voluptas illum quaerat laboriosam. A dolore illum, eveniet facere neque
-        in nisi quibusdam voluptas expedita sapiente facilis maxime! Eum dolore
-        veritatis, ullam tempore dolorem velit expedita deserunt. Soluta
-        incidunt asperiores nisi!
-      </p>
-      <p class="p__index">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloremque
-        veniam optio natus architecto aperiam necessitatibus doloribus, nihil
-        ullam, obcaecati expedita. Maxime asperiores earum nostrum itaque sint
-        rem dolorum consequuntur fugit quam, eligendi mollitia nesciunt autem
-        amet deserunt molestias optio, qui hic natus rerum harum labore ipsum
-        architecto. Dolores quidem voluptas eius natus facilis fugiat eum
-        obcaecati itaque omnis in magnam deleniti cumque et totam quaerat beatae
-        quasi harum voluptatum, impedit molestias reprehenderit. Placeat, fugit
-        minima sunt rerum a alias exercitationem deleniti? Voluptatem inventore
-        illum ipsum, ab aliquid quis, iure voluptates, dolores excepturi iste
-        cupiditate? Et odit a iste animi.
+        Desde hace mas de 15 años dedicandonos a la venta de productos de
+        belleza naturales, en la Ciudad de La Plata. Nuestro enfoque es acercar
+        productos naturales cuyos ingredientes son obtenidos por trabajoras
+        locales y regionales. Ademas con nuestro enfoque en la produccion
+        artesanal nos aseguramos de dejar una menor huella de dioxido de carbono
+        en la atmosfera. Nos preocupa nuestro planeta y nos dedicamos a cuidarlo
+        lo maximo posible. Somos una pequeña empresa que ha ido creciendo y
+        afianzado a lo largo de los años gracias a la union entre productores
+        locales y regionales, lo cual beneficia al mercado local y regional.
+        Ademas de acercarte productos de origen natural.
+
+        <!--SECCION EXTRAIDA DE TIENDA.HTML-->
       </p>
 
-      <!--SECCION EXTRAIDA DE TIENDA.HTML-->
       <div class="dropdown__index dropdown">
         <button
           class="btn btn-light btn-outline-dark dropdown-toggle"
@@ -217,11 +187,15 @@
         <img
           class="usuario__index"
           src="imagenes/user.png"
-          alt=""
+          alt="imagen de usuario"
           width="50px"
         />
         <!---Estrellas de valoracion-->
-        <img src="imagenes/estrellas.png" alt="" width="50px" />
+        <img
+          src="imagenes/estrellas.png"
+          alt="Estrella de valoracion"
+          width="50px"
+        />
         <h3 class="nombreusuario__index">Ernesto</h3>
         <p class="reseniausuario__index">
           Me encantaron los productos! Fueron un increible regalo
@@ -231,11 +205,15 @@
         <img
           class="usuario__index"
           src="imagenes/user.png"
-          alt=""
+          alt="imagen de usuario"
           width="50px"
         />
         <!---Estrellas de valoracion-->
-        <img src="imagenes/estrellas.png" alt="" width="50px" />
+        <img
+          src="imagenes/estrellas.png"
+          alt="Estrella de valoracion"
+          width="50px"
+        />
         <h3 class="nombreusuario__index">Carla</h3>
         <p class="reseniausuario__index">
           Mi tienda favorita! Y encima de origen natural, que mas pedir?
@@ -244,28 +222,34 @@
         <img
           class="usuario__index"
           src="imagenes/user.png"
-          alt=""
+          alt="imagen de usuario"
           width="50px"
         />
         <!---Estrellas de valoracion-->
-        <img src="imagenes/estrellas.png" alt="" width="50px" />
+        <img
+          src="imagenes/estrellas.png"
+          alt="Estrella de valoracion"
+          width="50px"
+        />
         <h3 class="nombreusuario__index">Patricia</h3>
         <p class="reseniausuario__index">
-          Mi tienda favorita! Y encima de origen natural, que mas pedir?
+          Siempre pensando en el medioambiente y eso me deja mas tranquila!
         </p>
         <!--Foto perfil-->
         <img
           class="usuario__index"
           src="imagenes/user.png"
-          alt=""
+          alt="imagen de usuario"
           width="50px"
         />
         <!---Estrellas de valoracion-->
-        <img src="imagenes/estrellas.png" alt="" width="50px" />
+        <img
+          src="imagenes/estrellas.png"
+          alt="Estrella de valoracion"
+          width="50px"
+        />
         <h3 class="nombreusuario__index">Julio</h3>
-        <p class="reseniausuario__index">
-          Mi tienda favorita! Y encima de origen natural, que mas pedir?
-        </p>
+        <p class="reseniausuario__index">Ideal para las fiestas!</p>
       </section>
     </main>
 
@@ -298,8 +282,6 @@
 
       <div class="boton-container__footer">
         <button class="boton__footer">Registrate</button>
-        <!--Icono de mundo-->
-        <img src="" alt="" />
       </div>
     </footer>
   </body>

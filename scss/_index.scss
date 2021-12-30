@@ -1,3 +1,6 @@
+@import "_elements";
+@import "_variables";
+
 /**======================INDEX======================**/
 .main__index {
   background-color: rgb(255, 255, 255);
@@ -6,36 +9,37 @@
 
 h1 {
   color: black;
-  font-weight: bold;
+  @include bold;
   margin-left: 10px;
   margin-bottom: 15px;
   text-align: center;
   letter-spacing: 2px;
 }
 
-.img-grid__index {
-  display: grid;
-  grid-template-areas: "img__index1 img__index2 img__index3";
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  grid-column-gap: 200px;
-  margin-top: 4%;
-}
-
-.img__index1 {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  margin-bottom: 40px;
-}
-.img__index2 {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  margin-bottom: 40px;
-}
-.img__index3 {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  margin-bottom: 40px;
+.img {
+  &-grid__index {
+    display: grid;
+    grid-template-areas: "img__index1 img__index2 img__index3";
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-column-gap: 200px;
+    margin-top: 4%;
+  }
+  &__index1 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 40px;
+  }
+  &__index2 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 40px;
+  }
+  &__index3 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 40px;
+  }
 }
 
 .p__index {

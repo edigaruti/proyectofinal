@@ -1,3 +1,5 @@
+@import "_elements";
+@import "_variables";
 /**======================CONTACTO======================**/
 .main__contacto {
   padding: 2% 2% 2% 2%;
@@ -15,47 +17,52 @@
   width: 33%;
 }
 
-.list__contacto {
-  list-style: none;
+.list {
+  &__contacto {
+    list-style: none;
+  }
+  &-item__contacto {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    @include bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
 }
-.list-item__contacto {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 2px;
+.input {
+  &__contacto {
+    padding: 5px;
+    width: 95%;
+  }
+  &__contacto:focus {
+    border: 2px solid transparent;
+  }
+  &-container__contacto {
+    display: flex;
+    justify-content: center;
+  }
 }
-.input__contacto {
-  padding: 5px;
-  width: 95%;
-}
-.input__contacto:focus {
-  border: 2px solid transparent;
-}
+
 .select__contacto {
   padding: 5px 10px 5px 10px;
 }
 
-#mensaje-textarea__contacto {
-  padding-top: 5px;
-  width: 95%;
-}
-
-#mensaje-textarea__contacto:focus {
-  border: 2px solid transparent;
-}
-
-.input-container__contacto {
-  display: flex;
-  justify-content: center;
+#mensaje {
+  &-textarea__contacto {
+    padding-top: 5px;
+    width: 95%;
+  }
+  &-textarea__contacto:focus {
+    border: 2px solid transparent;
+  }
 }
 
 .boton__contacto {
   margin: 15px;
-  border: green 1px solid;
+  border: $primary 1px solid;
   border-radius: 5px;
   line-height: 25px;
-  font-weight: bold;
+  @include bold;
   font-size: 15px;
   letter-spacing: 2px;
   width: 150px;
@@ -64,7 +71,7 @@
   transition: all 300ms;
 }
 .boton__contacto:hover {
-  background: bisque;
+  background: $secundary;
   color: black;
   border: orangered 1px solid;
 }
